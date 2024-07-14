@@ -14,6 +14,4 @@ NOTE that this script contains its own database of flower song ids -> Kamaitachi
 3. Once you identify which is the proper song, look at the URL. It'll look something like `https://kamai.tachi.ac/games/popn/9B/songs/1559/EX` and you want to enter into the prompt `1559`.
 4. If it prompts you for the same song again, you can just leave the prompt blank and it'll ignore it.
 
-### Maintenance Guide
-
-todo: write a script which updates for new song ids.
+NOTE also that it uses lookup tables for lamps and chart difficulties and if it finds something it doesn't recognize it'll display a prompt. Unfortunately there's not much you can do unless you can read code and add it into the lookup table yourself. Sorry about that.

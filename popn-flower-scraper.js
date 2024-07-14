@@ -74,7 +74,7 @@ function parseFlowerSongRecord(tr) {
     function getPopnLampName(imgUrl) {
         let imageName = new URL(imgUrl).pathname.split('/').pop();
         return lookupCache(CACHE.lamps, imageName, (name) => {
-            return prompt(`What lamp is ${name}`);
+            return prompt(`Unrecognized lamp image ${name} -- please enter in its name and continue`);
         });
     }
 
