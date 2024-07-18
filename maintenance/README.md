@@ -43,4 +43,4 @@ This would be a way of making matches without querying as many songs.
 
 ## Automatic inference
 
-To make the script more robust to song additions, it has some ability to identify id mappings itself.
+The script also has some ability to identify id mappings itself to make the script more robust to song additions. It's not very good however, so the song database should be kept up to date as much as possible.
