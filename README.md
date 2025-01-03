@@ -1,3 +1,9 @@
+### Alternatives
+
+ * **https://github.com/HutchyBen/flower-tachi**, supports other games too :)
+
+---
+
 While the Flower API doesn't have an importer for pop'n set up, here's a web scraper script for your scores page.
 
 1. While on your scores page (popn music > Profile), paste the script below into the Developer Console: https://raw.githubusercontent.com/barrysir/popn-flower-kamaitachi-importer/main/popn-flower-scraper.js
